@@ -13,13 +13,7 @@ function setup() {
 
 
 function draw() {
-  // put drawing codelet myVariable = 2;
-
-function setup(){
-  console.log("myVariable is " + myVariable);
-  myVariable = 4;
-  console.log("now myVariable is " + myVariable);
-} here --> this loops every frame
+  // put drawing code here --> this loops every frame
 }
 
 
