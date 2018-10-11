@@ -10,13 +10,19 @@ function setup() {
   // draw ellipse
  ellipse(100, 100, 80, 80);
 }
-let myVariable = 2;
+// these are all the same:
+x = x + 1;
+x++;
+x += 1;
 
-function setup(){
-  console.log("myVariable is " + myVariable);
-  myVariable = 4;
-  console.log("now myVariable is " + myVariable);
-}
+// same with subtract!
+x = x - 1;
+x--;
+x -= 1;
+
+// and multiply!
+x = x * 5;
+x *= 5;
 
 function draw() {
   // put drawing code here --> this loops every frame
