@@ -13,14 +13,8 @@ function setup() {
 
 function draw() {
   // // draw ellipse
- ellipse(100, 100, 80, 80);
- let myVariable = 2;
-
-function setup(){
-  console.log("myVariable is " + myVariable);
-  myVariable = 4;
-  console.log("now myVariable is " + myVariable);
-}
+ ellipse(x, 200, 80, 80);
+ x = x + 1;
 }
 
 
