@@ -7,13 +7,13 @@ function setup() {
   createCanvas(500, 500);
   background(0);
 
-  // draw ellipse
- ellipse(100, 100, 80, 80);
+
 }
 
 
 function draw() {
-  // put drawing code here --> this loops every frame
+  // // draw ellipse
+ ellipse(100, 100, 80, 80);
 }
 
 
