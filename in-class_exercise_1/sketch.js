@@ -13,10 +13,8 @@ function setup() {
 
 function draw() {
   // // draw ellipse
- ellipse(x, 200, 80, 80);
- x=50;
-
- x = x + 1;
+ ellipse(50, 200, 80, 80);
+ 
 }
 
 
