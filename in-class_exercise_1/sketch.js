@@ -10,11 +10,14 @@ function setup() {
 
 }
 
-
+var x=0
+var y=200
+var diameter =50
 function draw() {
   // // draw ellipse
- ellipse(50, 200, 80, 80);
- 
+ ellipse(x, y, diameter, diameter);
+ x=x+1;
+
 }
 
 
